@@ -1,4 +1,4 @@
-
+// import {Navbar} from "./Navbar"
 // import { Footer } from "./Footer";
 // import { useState } from "react";
 // import { useAuth } from "../store/auth";
@@ -73,7 +73,7 @@
 //   return (
 //     <>
 //       <div className="reservebody">
-       
+            // <Navbar/>
 //         <div id="content">
 //           <div className="form">
 //             <h1>Book a table</h1>

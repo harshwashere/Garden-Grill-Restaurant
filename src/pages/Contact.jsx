@@ -1,4 +1,4 @@
-
+import {Navbar} from "./Navbar"
 import { Footer } from "./Footer";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
@@ -72,7 +72,7 @@ export const Contact = () => {
   return (
     <>
       <div className="contactbody">
-        
+        <Navbar/>
         <div id="head">
           <h1 className="title" style={{ color: "black", fontStyle: "normal" }}>
             Contact Us

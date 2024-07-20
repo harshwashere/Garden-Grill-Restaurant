@@ -79,7 +79,7 @@ export const Signup = () => {
                     className="signupinput"
                     name="name"
                     id="txtname"
-                    placeholder="John Doe"
+                    placeholder="Your name"
                     value={user.name}
                     onChange={handleInput}
                     required
@@ -92,7 +92,7 @@ export const Signup = () => {
                     className="signupinput"
                     name="phone"
                     id="txtnum"
-                    placeholder="74359xxxxx"
+                    placeholder="Mobile number "
                     pattern="[0-9]{3}[0-9]{3}[0-9]{4}"
                     title="Please Enter a 10 Digit Number"
                     value={user.phone}
@@ -107,7 +107,7 @@ export const Signup = () => {
                     className="signupinput"
                     name="email"
                     id="txtemail"
-                    placeholder="johndoe@example.com"
+                    placeholder="Enter an email address"
                     pattern="^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$"
                     title="Please enter in this format example@example.com"
                     value={user.email}
@@ -155,7 +155,7 @@ export const Signup = () => {
                     <p className="sup">
                       <span className="sulink2">
                         Already have an account?
-                        <NavLink className="link" to={"/Login"}>
+                        <NavLink className="linksignup" to={"/Login"}>
                           Log In
                         </NavLink>
                       </span>

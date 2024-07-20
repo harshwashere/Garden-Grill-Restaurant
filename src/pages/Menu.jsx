@@ -1,4 +1,4 @@
-
+import {Navbar} from "./Navbar"
 import { Footer } from "./Footer";
 import { useAuth } from "../store/auth";
 import { useDispatch } from "react-redux";
@@ -11,6 +11,7 @@ export const Menu = () => {
     return (
       <>
         <div className="newCart">
+          
           <div className="cartImg">
             <img src={val.image} alt="" />
           </div>
@@ -48,8 +49,7 @@ export const Menu = () => {
   return (
     <>
       <div className="menubody">
-       
-        
+      <Navbar/>
         <div className="foodcard">{Store ? <>{Store.map(dataMap)}</> : <><div className="loader"></div></>}</div>
       
         <Footer />

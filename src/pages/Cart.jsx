@@ -1,6 +1,7 @@
 import { useDispatch, useSelector } from "react-redux";
 import { removeCart, getCartTotal, increaseItemQuantity, decreaseItemQuantity } from "../redux/cartSlice";
 import { useEffect } from "react";
+import {Navbar} from "./Navbar"
 
 export const Cart = () => {
   const cartitems = useSelector((state) => state.cart.cart);
@@ -15,6 +16,7 @@ export const Cart = () => {
   return (
     <>
       <div className="cartPage">
+        <Navbar/>
         {cartitems.length === 0 ? (
           <div className="emptyCartMessage">Cart is empty</div>
         ) : (

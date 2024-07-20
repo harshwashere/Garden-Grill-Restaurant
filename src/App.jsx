@@ -27,7 +27,7 @@ import "../public/css/navbar.css";
 import "../public/css/footer.css";
 import { AdminMenu } from "./pages/AdminMenu";
 import { AdminMenuUpdate } from "./pages/AdminMenuUpdate";
-import { Navbar } from "./pages/Navbar";
+// import { Navbar } from "./pages/Navbar";
 
 const App = () => {
   return (
@@ -35,7 +35,7 @@ const App = () => {
       <Provider store={store}>
       
         <BrowserRouter>
-        <Navbar/>
+        {/* <Navbar/> */}
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/Menu" element={<Menu />} />

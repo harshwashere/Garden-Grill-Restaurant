@@ -1,8 +1,6 @@
 
 
 .cartPage {
-  /* background-color: rgb(245, 245, 245); */
-  /* background-color: rgb(215, 236, 243); */
   height: auto;
   gap: 1cm;
   padding: 0 7% 7% 7%;
@@ -32,7 +30,7 @@
 }
 .cartItems {
   background-color: white;
-  
+  background-image: url("/Images/bg_light_gray.jpg");
   width: max(9cm,74%);
   overflow-x: hidden;
   overflow-y: auto;

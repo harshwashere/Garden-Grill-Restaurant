@@ -106,6 +106,7 @@
   color: #fff;
 }
 
-.sulink2 NavLink {
-  color: black;
+.linksignup {
+  color: white;
+  text-decoration: none;
 }

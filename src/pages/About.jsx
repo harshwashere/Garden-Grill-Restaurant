@@ -1,16 +1,17 @@
-
+/* eslint-disable react/no-unescaped-entities */
+import {Navbar} from "./Navbar"
 import { Footer } from "./Footer";
 
 export const About = () => {
   return (
     <>
       <div className="aboutbody">
-       
-        <h1 class="abouttitle" style={{ color: "black" }}>
+       <Navbar/>
+        <h1 className="abouttitle" style={{ color: "black" }}>
           GardenGrill - A Great Divine Experience
         </h1>
-        <div class="about-owner">
-          <div class="about">
+        <div className="about-owner">
+          <div className="about">
             <p>
               Welcome to the enchanting world of GardenGrill, where culinary
               excellence meets the splendor of nature. GardenGrill is an
@@ -69,7 +70,7 @@ export const About = () => {
               reverence, both for food & to those whom it is served.
             </p>
           </div>
-          <div class="owner">
+          <div className="owner">
             <img src="/Images/HARSH-IMAGE.jpg" alt="Owner Image"></img>
           </div>
         </div>

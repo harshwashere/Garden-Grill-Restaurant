@@ -74,12 +74,14 @@
   height: 1cm;
   border-radius: 10px;
   border: none;
-  background-color: rgb(96, 96, 234);
+  background-color: rgb(0, 0, 0);
+  box-shadow: 3px 3px 4px white;
   padding-bottom: 0.2cm;
   width: 4cm;
   font-size: 20px;
   padding-top: 0.2cm;
   color: white;
+  cursor: pointer;
 }
 .newButton button:active {
   background-color: white;
