@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.reservebody {
+  background-image: url(/Images/bg_light_gray.jpg);
+  background-size: 100% 100%;
+  background-repeat: repeat;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+}
+
+#content {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.form {
+  width: 100%;
+}
+
+.form h1 {
+  text-align: center;
+}
+
+.reserveform {
+  margin: 40px 0 0 70px;
+  /* min-height: 140vh; */
+  width: 50%;
+  /* border: 2px solid black; */
+}
+
+.reserveform label {
+  font-size: 12px;
+  line-height: 20px;
+  text-align: start;
+  letter-spacing: normal;
+  color: #707070;
+  padding-bottom: 5px;
+  display: block;
+  width: 100%;
+  float: left;
+}
+
+.reserveform input {
+  font-size: 13px;
+  line-height: normal;
+  text-align: start;
+  letter-spacing: normal;
+  color: #666666;
+  margin-bottom: 15px;
+  vertical-align: middle;
+  width: 90%;
+  float: left;
+  padding: 10px;
+  border: solid 5px #fff;
+  background-color: #efefef;
+  fill: #000000;
+  box-shadow: rgb(206, 206, 206) 1px 2px 2px 0px inset;
+}
+
+.reserveform select {
+  font-size: 13px;
+  line-height: normal;
+  text-align: start;
+  letter-spacing: normal;
+  color: #666666;
+  margin-bottom: 15px;
+  vertical-align: middle;
+  width: 94.6%;
+  float: left;
+  padding: 10px;
+  border: solid 5px #fff;
+  background-color: #efefef;
+  fill: #000000;
+  box-shadow: rgb(206, 206, 206) 1px 2px 2px 0px inset;
+}
+
+#subbtn {
+  color: #fff;
+  border: 0;
+  padding: 15px 26px 15px 27px;
+  cursor: pointer;
+  font-size: 13px;
+  line-height: 14px;
+  display: inline-block;
+  font-size: 13px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: normal;
+  fill: #ffffff;
+  background: #34302f;
+  padding: 15px 26px 15px 27px;
+  margin: 10px;
+  background: url(/Images/button.png) no-repeat;
+}
+
+#resbtn {
+  color: #fff;
+  border: 0;
+  padding: 15px 26px 15px 27px;
+  cursor: pointer;
+  font-size: 13px;
+  line-height: 14px;
+  display: inline-block;
+  font-size: 13px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: normal;
+  fill: #ffffff;
+  background: #34302f;
+  padding: 15px 26px 15px 27px;
+  margin: 10px;
+  background: url(/Images/button.png) no-repeat;
+}
+
+.table-image img {
+  height: 100%;
+}

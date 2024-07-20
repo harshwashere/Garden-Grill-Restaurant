@@ -1,0 +1,48 @@
+.footer {
+  background-color: #ff7a6e;
+  height: auto;
+  
+  clear: both;
+  width: 99%;
+}
+
+.footer > .greet {
+  text-align: center;
+  margin-top: 7px;
+  margin-bottom: 10px;
+}
+
+.social-btn {
+  position: sticky;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  font-size: 2rem;
+}
+
+.social-btn a {
+  color: rgb(255, 253, 253);
+}
+
+.quick-bar {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  font-size: 1rem;
+  padding-top: 1rem;
+}
+
+.quick-bar a {
+  color: black;
+  text-decoration: none;
+}
+
+.footer p {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}

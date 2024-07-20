@@ -1,0 +1,239 @@
+@import url("https://fonts.googleapis.com/css2?family=Droid+Serif");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.contactbody {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+  background-image: url("/Images/bg_light_gray.jpg");
+  background-size: 100% 100%;
+  
+  width: 99.3%;
+}
+
+.contactform {
+ 
+  width: 90%;
+  margin-left: 5%;
+  
+  margin-bottom: 1cm;
+}
+
+#head {
+ margin-bottom: 1cm;
+ 
+ width: 90%;
+ margin-left: 5%;
+}
+
+.title {
+  text-align: center;
+ 
+  margin: 20px;
+  font-size: 26px;
+  color: black;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+.line {
+  margin-bottom: 20px;
+  font-size: 13px;
+  line-height: 20px;
+  text-align: justify;
+  letter-spacing: normal;
+  color: #787371;
+}
+
+.fhead {
+  font-size: 18px;
+  line-height: normal;
+  text-align: justify;
+  letter-spacing: normal;
+  color: #1d1817;
+}
+
+#lname {
+  font-size: 12px;
+  line-height: 20px;
+  text-align: start;
+  letter-spacing: normal;
+  color: #707070;
+  padding-bottom: 5px;
+  display: block;
+  width: 100%;
+  float: left;
+}
+
+.txtname {
+  font-size: 13px;
+  line-height: normal;
+  text-align: start;
+  letter-spacing: normal;
+  color: #666666;
+  margin-bottom: 15px;
+  vertical-align: middle;
+  width: max(6cm,40%);
+  float: left;
+  padding: 10px;
+  border: solid 5px #fff;
+  background-color: #efefef;
+  fill: #000000;
+  box-shadow: rgb(206, 206, 206) 1px 2px 2px 0px inset;
+}
+
+#lemail {
+  font-size: 12px;
+  line-height: 20px;
+  text-align: start;
+  letter-spacing: normal;
+  color: #707070;
+  padding-bottom: 5px;
+  display: block;
+  width: 100%;
+  float: left;
+}
+
+.txtemail {
+  font-size: 13px;
+  line-height: normal;
+  text-align: start;
+  letter-spacing: normal;
+  color: #666666;
+  margin-bottom: 15px;
+  vertical-align: middle;
+  width:max(6cm,40%);
+  float: left;
+  padding: 10px;
+  border: solid 5px #fff;
+  background-color: #efefef;
+  fill: #000000;
+  box-shadow: rgb(206, 206, 206) 1px 2px 2px 0px inset;
+}
+
+#lnum {
+  font-size: 12px;
+  line-height: 20px;
+  text-align: start;
+  letter-spacing: normal;
+  color: #707070;
+  padding-bottom: 5px;
+  display: block;
+  width: 100%;
+  float: left;
+}
+
+.num {
+  font-size: 13px;
+  line-height: normal;
+  text-align: start;
+  letter-spacing: normal;
+  color: #666666;
+  margin-bottom: 15px;
+  vertical-align: middle;
+  width: max(6cm,40%);
+  float: left;
+  padding: 10px;
+  border: solid 5px #fff;
+  background-color: #efefef;
+  fill: #000000;
+  box-shadow: rgb(206, 206, 206) 1px 2px 2px 0px inset;
+}
+
+#lsub {
+  font-size: 12px;
+  line-height: 20px;
+  text-align: start;
+  letter-spacing: normal;
+  color: #707070;
+  padding-bottom: 5px;
+  display: block;
+  width: 100%;
+  float: left;
+}
+
+.txtsub {
+  font-size: 13px;
+  line-height: normal;
+  text-align: start;
+  letter-spacing: normal;
+  color: #666666;
+  margin-bottom: 15px;
+  vertical-align: middle;
+  width: max(6cm,40%);
+  float: left;
+  padding: 10px;
+  border: solid 5px #fff;
+  background-color: #efefef;
+  fill: #000000;
+  box-shadow: rgb(206, 206, 206) 1px 2px 2px 0px inset;
+}
+
+#lmsg {
+  font-size: 12px;
+  line-height: 20px;
+  text-align: start;
+  letter-spacing: normal;
+  color: #707070;
+  padding-bottom: 5px;
+  display: block;
+  width: 100%;
+  float: left;
+}
+
+.txtmsg {
+  font-size: 13px;
+  line-height: normal;
+  text-align: start;
+  letter-spacing: normal;
+  color: #666666;
+  margin-bottom: 15px;
+  vertical-align: middle;
+  width: max(6cm,40%);
+  float: left;
+  padding: 10px;
+  border: solid 5px #fff;
+  background-color: #efefef;
+  fill: #000000;
+  box-shadow: rgb(206, 206, 206) 1px 2px 2px 0px inset;
+}
+
+.subbtn {
+  color: #fff;
+  border: 0;
+  padding: 15px 26px 15px 27px;
+  cursor: pointer;
+  font-size: 13px;
+  line-height: 14px;
+  display: inline-block;
+  font-size: 13px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: normal;
+  fill: #ffffff;
+  background: #34302f;
+  padding: 15px 26px 15px 27px;
+  margin: 10px;
+  background: url(/Images/button.png) no-repeat;
+}
+
+.resbtn {
+  color: #fff;
+  border: 0;
+  padding: 15px 26px 15px 27px;
+  cursor: pointer;
+  line-height: 14px;
+  display: inline-block;
+  font-size: 13px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: normal;
+  fill: #ffffff;
+  background-color: #34302f;
+  padding: 15px 26px 15px 27px;
+  margin: 10px;
+  background: url(/Images/button.png) no-repeat;
+}

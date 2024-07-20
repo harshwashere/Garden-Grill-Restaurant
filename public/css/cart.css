@@ -1,0 +1,287 @@
+
+
+.cartPage {
+  /* background-color: rgb(245, 245, 245); */
+  /* background-color: rgb(215, 236, 243); */
+  height: auto;
+  gap: 1cm;
+  padding: 0 7% 7% 7%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cart {
+  border-radius: 20px;
+  width: max(9cm,100%);
+  height: 70vh;
+  
+ margin-top: 1cm;
+ display: flex;
+ 
+  /* height: 70vh;
+  display: flex;
+
+  
+  justify-content: center;
+  align-content: center; */
+}
+@media (max-width:1158px){
+  .cart{
+    height: auto;
+  }
+}
+.cartItems {
+  background-color: white;
+  
+  width: max(9cm,74%);
+  overflow-x: hidden;
+  overflow-y: auto;
+  scrollbar-width: none;
+  margin-bottom: 0.5cm;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 5cm;
+}
+.total {
+  font-weight: bold;
+  font-size: 18px;
+}
+.img img {
+  width: 4cm;
+  height: 4cm;
+  margin: 0 0.5cm;
+  background-color: lightgray;
+
+  border-radius: 20px;
+}
+.desc {
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  gap: 0.5cm;
+  align-items: center;
+}
+.button button {
+  width: 4cm;
+  height: 1cm;
+
+  background-color: rgb(59, 187, 59);
+  border-radius: 10px;
+}
+.totalQuantity {
+  display: flex;
+  justify-content: space-around;
+  height: 1cm;
+  border: 1px solid gray;
+  align-items: center;
+  width: 3cm;
+}
+.cartHead {
+  display: flex;
+  /* position: fixed; */
+  background-color: white;
+  box-shadow: 0px 1px 0px gray;
+  width: 100%;
+  height: 2cm;
+
+  
+  border-radius: 15px 15px 0 0;
+}
+.cartHead div {
+  margin: 0.5cm;
+  font-size: 30px;
+  font-weight: bold;
+}
+.item {
+  font-weight: bold;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  
+  
+}
+.item div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 0;
+  text-align: center;
+  height: 1.9cm;
+  border-bottom: 1px solid black;
+}
+.item1 img {
+  width: 100%;
+  height: 100%;
+}
+.item1 {
+  width: 15%;
+  margin-left: 10px;
+  
+  padding-right: 0.2cm;
+}
+.item2 {
+ 
+  width: 25%;
+}
+.item3 {
+  width: 20%;
+  
+}
+.item4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  
+}
+.item4 div {
+  width: 30%;
+}
+.item5 {
+  
+  width: 20%;
+}
+.item5 i {
+  color: red;
+}
+.item6 {
+ 
+  margin-right: 0.5cm;
+}
+.checkPage {
+  /* background-color: rgb(222, 222, 222); */
+  background-color: rgb(188, 228, 241);
+  border-radius: 10px;
+  width: max(8cm,25%);
+  height: 65vh;
+  padding: 0.5cm;
+  border: 1px solid gray;
+  margin-left: 0.2cm;
+}
+.summary {
+  font-size: 25px;
+  margin: 0.5cm 0;
+  font-weight: bold;
+}
+.allTotal {
+  display: flex;
+  justify-content: space-between;
+  font-size: 17px;
+  font-weight: bold;
+}
+.delivery {
+  height: 2cm;
+
+  width: 80%;
+}
+
+.fees {
+  display: flex;
+  justify-content: space-between;
+  height: 2cm;
+
+  width: 20%;
+}
+.totalPrice {
+  display: flex;
+  justify-content: space-between;
+  height: 2cm;
+  width: 20%;
+
+  align-items: center;
+}
+.Rs {
+  text-align: start;
+}
+.finaltotalPrice {
+  display: flex;
+  justify-content: space-between;
+  width: 20%;
+  align-items: center;
+}
+.ITEMS,
+.totalHead {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 80%;
+}
+/* .value {
+} */
+.charge {
+  display: flex;
+  justify-content: space-between;
+  font-size: 17px;
+  font-weight: bold;
+}
+.code {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 17px;
+}
+.apply {
+  color: rgb(62, 62, 235);
+  height: 0.8cm;
+  background-color: lightblue;
+
+  width: 2cm;
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 0.1cm;
+}
+.apply:active {
+  background-color: white;
+}
+.inputDivCode {
+  padding: 0.6cm 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 1cm;
+}
+#input {
+  width: 85%;
+  height: 0.8cm;
+  padding-left: 0.2cm;
+  border: none;
+}
+.finalTotal {
+  padding-top: 0.5cm;
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  font-size: 17px;
+}
+.checkOut {
+  border: 1px solid black;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 0.5cm;
+  height: 0.8cm;
+  background-color: black;
+  color: white;
+}
+.checkOut:active {
+  background-color: white;
+  color: black;
+}
+@media (max-width:750px){
+  .cart{
+    flex-wrap: wrap;
+    justify-content: center;
+   
+  }
+  .cartPage{
+    padding-left: 2%;
+  }
+}
